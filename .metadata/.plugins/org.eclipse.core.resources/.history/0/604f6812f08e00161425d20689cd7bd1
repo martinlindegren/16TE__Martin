@@ -1,0 +1,12 @@
+package dfd;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String args[]) {
+     Scanner Desu = new Scanner(System.in);
+     double t1,t2;
+	}
+
+}
