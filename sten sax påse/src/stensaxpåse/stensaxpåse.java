@@ -10,7 +10,7 @@ public class stensaxpåse {
 		int spcsc=0;
 		int compsc=0;
 
-		String computerPlay = "";
+		String computerPlay;
 
 		String response;
 
@@ -19,22 +19,24 @@ public class stensaxpåse {
 
 		System.out.println("sten sax eller påse");
 		System.out.println("1 = sten, 2 = sax, 3= påse");
+		// prints out the greeting words
 
 		for (int i = 0; i < 3; i++) {
-
+        // for loop that loops the code until someone reaches 3 points
 			computerInt = generator.nextInt(3) + 1;
-
+			// the computer generates a number 1-3
 			if (computerInt == 1)
 				computerPlay = "sten";
 			else if (computerInt == 2)
 				computerPlay = "sax";
 			else if (computerInt == 3)
 				computerPlay = "påse";
+			// Computer gets sten,sax or påse depending on the number it generated
 
 			spc = desu.nextInt();
 
 			System.out.println("computerPlay is " + computerPlay);
-			
+			//prints out your and the computers play
 			if(spc == computerInt-1){
 				System.out.println("Du vann");
 				spcsc++;
@@ -45,6 +47,7 @@ public class stensaxpåse {
 				System.out.println("U Lost m8");
 				compsc++;
 				System.out.println("Current score :"+ spcsc+"-"+compsc);
+				// Rules if you win, loose or draw
 			}
 		}
 
