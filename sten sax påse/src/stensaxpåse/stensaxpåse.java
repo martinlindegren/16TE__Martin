@@ -22,7 +22,7 @@ public class stensaxpåse {
 		// prints out the greeting words
 
 		for (int i = 0; i < 3;) {
-        // for loop that loops the code until someone reaches 3 points
+        // for loop that loops the code until 3 points has been given out
 			computerInt = generator.nextInt(3) + 1;
 			// the computer generates a number 1-3
 			if (computerInt == 1)
@@ -38,7 +38,7 @@ public class stensaxpåse {
 			System.out.println("computerPlay is " + computerPlay);
 			//prints out your and the computers play
 			if(spc == computerInt-1){
-				System.out.println("Du vann");
+				System.out.println("Ez win");
 				spcsc++;
 				i++;
 				System.out.println("Current score :"+ spcsc+"-"+compsc);

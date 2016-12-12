@@ -1,0 +1,27 @@
+
+package cjhs;
+
+import java.util.Scanner;
+
+    public class Korsord {
+    	
+    
+	char [] key = new char [29];
+    
+    public static void main(String args[]){
+    	
+    	System.out.println("s");
+	   	Scanner desu = new Scanner (System.in);
+    	int userinp = desu.nextInt();
+    	int userinp2 = desu.nextInt();
+    	
+    	new Framen(userinp, userinp2);
+  
+   
+    }
+
+
+		
+	}
+
+
