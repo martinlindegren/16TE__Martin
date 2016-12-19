@@ -16,13 +16,13 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
-// Do so every command is JFrame commands
+
 public class Framen extends JFrame {
 	private static final long serialVersionUID = -3345354391577272355L;
 
 
 	public Framen(int rowsi, int cols) {
-		// All the variables 
+		
 		int GRID_ROWS = rowsi;
 		int GRID_COL = cols;
 		int BOX_SIZE = 50;
@@ -117,7 +117,6 @@ public class Framen extends JFrame {
 
 		setAlwaysOnTop(true);
 		setVisible(true);
-		setAlwaysOnTop(false);
 
 
 	}

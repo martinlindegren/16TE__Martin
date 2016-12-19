@@ -9,7 +9,7 @@ import java.util.Scanner;
 	//char [] key = new char [29];
     
     public static void main(String args[]){
-    	System.out.print("Skriv in storlek på krypto");
+    	System.out.print("dsds");
 	   	Scanner desu = new Scanner (System.in);
     	int userinp = desu.nextInt();
     	int userinp2 = desu.nextInt();
