@@ -8,9 +8,8 @@ public class Main {
      Scanner Desu = new Scanner(System.in);
      double t1,t2,answ;
      t1 = Desu.nextDouble();
+     char t0 = Desu.next().charAt(0);
      t2 = Desu.nextDouble();
-     
-      char t0 = Desu.next().charAt(0);
       
       switch (t0) {
 	case '+':
